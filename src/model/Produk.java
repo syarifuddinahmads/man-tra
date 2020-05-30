@@ -11,4 +11,11 @@ package model;
  */
 public class Produk {
     
+    private Integer Id_Produk;
+    private Pemasok pemasok;
+    private Kategori kategori;
+    private String Nama_Produk;
+    private Integer Harga_Satuan;
+    private Integer Stok_Produk;
+    
 }
