@@ -5,10 +5,16 @@
  */
 package oraclejava;
 
+import java.sql.SQLException;
+import java.text.ParseException;
+import view.Transaksiview;
+
 /**
  *
  * @author syarifuddin
  */
 public class Oraclejava {
-    
+    public static void main(String[] args) throws SQLException,ParseException{
+        new Transaksiview().show();
+    }
 }
